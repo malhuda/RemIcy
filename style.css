@@ -1,0 +1,329 @@
+/*
+	Theme Name: Rem:Icy Theme
+	Theme URI: https://www.facebook.com/masga.ex
+	Author: Masga Ex
+	Author URI: https://www.facebook.com/masga.ex
+	Description: Simple aja! Tema Anime Download (Fanbatch/Fanshare/Fansub) yang dibuat sesederhana mungkin. Dengan beberapa fitur seperti Safelink (Gunakan Templat Bawaan: Safelink).
+	Version: 1.0
+	Tags: Float Menu, Main Menu, Footer Menu, Sidebar Right, Batch, Custom, Info, Download, Movie, Fast Loaded, Cyan, Gray, Black, White
+*/
+@import url(css/font-awesome.min.css);
+@import url(css/open-sans.css);
+a,body{color:#222}
+#genres a:hover,.rekomendasi a:hover{text-decoration:underline}
+#genres ul,#kaki-menu ul,#menu-layang ul,#menu-utama ul,.commentlist li,ol,ul{list-style:none}
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline}
+body{background:#DEDEDE;font-family:'Open Sans',sans-serif}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+.back-to-top,li.icon{display:none}
+a{text-decoration:none}
+a:hover{color:#54CBFF}
+.penengah{margin:0 auto;width:990px}
+a.back-to-top:hover{color:#EEE}
+.back-to-top{position:fixed!important;position:absolute;bottom:20px;right:20px;z-index:999;font-size:24px;color:#EEE;background:#54CBFF;padding:10px;border-radius:10px}
+.inzserjdl{display:block;font-size:14px;font-weight:700;background:rgba(0, 0, 0, 0.28);color:#fff;line-height:30px;margin:-5px -9px 5px;padding:0 7px;}
+.inzserjdl .rate{margin:3px;float:right;line-height:23px;color:#fff}
+.inzser{overflow:hidden;margin:5px 0}
+.inzser img{float:left;width:150px;height:200px;padding:1px;margin-right:10px}
+.inzser .rapi{font-size:11px;line-height:18px;color:#fafafa;font-family:segoe ui}
+.inzser .rapi span{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.inzser .rapi b{color:#fafafa}
+.inzser .rapi a{color:#fafafa}
+.inzser .rapi .sinz{border-top:1px solid #444;display:block;margin-top:5px;padding-top:5px;margin-left:168px}
+.inzser .rapi .sinz p{margin:0}
+#menu-utama ul li a:hover,#menu-utama ul li.current-menu-item{background:#6C6C6C}
+#kepala{position:relative;margin:0 auto;height:80px;width:100%;background:url(images/Rem-Blue.png) no-repeat #54CBFF;background-size:auto 80px}
+#kepala #judul{position:absolute;height:60px;margin-left:107px;text-align:left;padding:5px 0 10px;color:#EEE;text-shadow:1px 1px 1px #5A5A5A}
+.anime-movie-thumbnail span,.anime-ongoing-thumbnail span,.anime-serial-thumbnail span{text-shadow:2px 1px 0 rgba(0,0,0,.8);font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#judul h1 a{font-size:2em;color:#EEE;margin-top:0}
+#judul h2{width:100%;overflow:hidden;font-size:11px;top:-10px}
+#menu-utama{position:relative;background:#5A5A5A;margin:0 auto;display:block;height:45px;width:100%}
+#menu-utama ul{padding:0;float:left;margin:0 auto}
+#menu-utama ul li{float:left;position:relative}
+#menu-utama ul li a{float:left;position:relative;color:#EEE;padding:0 15px;font-size:14px;line-height:45px}
+#menu-utama ul li i{margin-right:5px}
+#menu-layang{float:right;margin-right:15px}
+#menu-layang ul{float:right}
+#menu-layang ul li{float:right;margin:0 5px}
+#menu-layang ul li a{line-height:80px;padding:5px 8px;cursor:pointer;color:#EEE;border-radius:3px;box-shadow:0 2px #2B6983;outline:0;background:#337C9B}
+#menu-layang ul li a:hover{background:#388CAE;border-bottom-color:#2F7490}
+#menu-layang ul li i{margin-left:5px}
+.rekomendasi{height:15px;background:#6C6C6C;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#EEE;padding:5px;font-size:11px}
+#genres,#genres ul li a,.rekomendasi h2{background:#5A5A5A;color:#EEE}
+.rekomendasi h2{font-weight:700;float:left;font-size:11px;padding:6px;line-height:13px;margin-top:-5px;margin-left:-5px;margin-right:10px}
+.rekomendasi a{color:#EEE;margin-right:10px}
+#genres{height:20px;margin:4px 0;padding:5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:11px}
+#genres ul{margin:0;padding:0}
+#genres ul li{float:left;margin-right:3px;display:inline-block;padding:2px 0}
+#genres ul li a{border:1px solid #666;font-weight:700;padding:2px 4px;border-radius:3px}
+#genres .textwidget{margin:0}
+#genres h2{background:#54CBFF;font-weight:700;float:left;font-size:11px;padding:6px 12px;line-height:18px;color:#EEE;margin-top:-5px;margin-left:-5px;margin-right:10px}
+#genres a{color:#EEE}
+.kotak-pencarian-404{text-align:center}
+.kotak-pencarian-404 #tempat-input{font-size:12px;line-height:30px;padding:0 8px;margin:6.55px 0;background:#6C6C6C;color:#EEE;border:1px solid #666;border-radius:2px}
+.kotak-pencarian-404 #pilih,.kotak-pencarian-404 #proses{font-size:12px;margin:6.55px 0;background:#6C6C6C;color:#EEE;border:1px solid #666}
+.kotak-pencarian-404 #pilih{line-height:45px;height:32px;border-radius:2px}
+.kotak-pencarian-404 #proses{line-height:30px;padding:0 8px;border-radius:2px}
+.kotak-pencarian #pilih,.kotak-pencarian #tempat-input{border:1px solid #666;font-size:12px;margin:6.55px 0;background:#6C6C6C;color:#EEE}
+.kotak-pencarian{width:300px;float:right}
+.kotak-pencarian #tempat-input{line-height:30px;padding:0 8px;border-radius:2px}
+.kotak-pencarian #pilih{line-height:45px;height:32px;border-radius:2px}
+.kotak-pencarian #proses{font-size:12px;line-height:30px;padding:0 8px;margin:6.55px 0;background:#6C6C6C;color:#EEE;border:1px solid #666;border-radius:2px}
+.iklan-kanan h1,.iklan-kiri h1{line-height:60px;text-align:center}
+#badan,#pembungkus{margin:0 auto;position:relative}
+#badan{width:990px;background:#FFF;-moz-user-select:none;-webkit-user-select:none;padding:10px 0;border:1px solid #DDD}
+.iklan-kanan,.iklan-kiri{border:1px solid #DEDEDE}
+#pembungkus{width:100%}
+#iklan-pos{overflow:hidden;margin:0 15px 5px}
+.iklan-kiri{float:left;width:468px;height:60px!important;background:url(images/Space-Header.png) no-repeat;background-size:auto 60px}
+.iklan-kiri h1{width:100%}
+.iklan-kanan{float:right;width:468px;height:60px;background:url(images/Space-Header.png) no-repeat;background-size:auto 60px}
+.iklan-kanan h1{width:100%}
+#konten{margin:0 15px;overflow:hidden}
+.badan-pos{width:640px;float:left;margin-bottom:5px}
+.anime-ongoing-title{position:relative}
+.anime-ongoing-title h1{font-size:14px;padding:5px 0;margin:0 0 5px;border-bottom:4px solid #DEDEDE;font-weight:700;color:#222}
+.anime-ongoing-title h1 span{border-bottom:4px solid #54CBFF;padding-bottom:5px}
+.anime-ongoing-more{padding:3px;bottom:10px;right:5px;font-size:10px;float:right;color:#EEE;background:#5A5A5A;text-align:center;width:70px}
+.anime-ongoing-konten{overflow:hidden;margin:0 -12px 2px 0}
+.anime-ongoing-thumbnail{float:left;text-align:justify;padding:1px;height:212px;margin:3px 5px 0 0;width:155px;position:relative;overflow:hidden}
+.anime-ongoing-thumbnail a{color:transparent}
+.anime-ongoing-thumbnail span{background:linear-gradient(to bottom,rgba(0,0,0,.05) 6%,rgba(0,0,0,.5) 70%);position:absolute;width:142px;color:#EEE;left:1px;bottom:6px;font-size:12px;text-align:center;padding:7px 5px}
+.anime-pos-title,.anime-serial-title{position:relative}
+.anime-ongoing-thumbnail img{width:151px;height:205px;border:1px solid #666}
+.anime-pos-more,.anime-serial-more{bottom:10px;float:right;background:#5A5A5A;text-align:center;width:70px;right:5px}
+.anime-pos-title h1{font-size:14px;padding:5px 0;margin:0 0 5px;border-bottom:4px solid #DEDEDE;font-weight:700;color:#222}
+.anime-pos-title h1 span{border-bottom:4px solid #54CBFF;padding-bottom:5px}
+.anime-pos-more{padding:3px;font-size:10px;color:#EEE}
+.anime-serial-title h1{font-size:14px;padding:5px 0;margin:0 0 5px;border-bottom:4px solid #DEDEDE;font-weight:700;color:#222}
+.anime-serial-title h1 span{border-bottom:4px solid #54CBFF;padding-bottom:5px}
+.anime-serial-more{padding:3px;font-size:10px;color:#EEE}
+.anime-serial-konten{overflow:hidden;margin:0 -12px 2px 0}
+.anime-serial-thumbnail{float:left;text-align:justify;padding:1px;height:212px;margin:3px 5px 0 0;width:155px;position:relative;overflow:hidden}
+.anime-serial-thumbnail a{color:transparent}
+.anime-serial-thumbnail span{background:linear-gradient(to bottom,rgba(0,0,0,.05) 6%,rgba(0,0,0,.5) 70%);position:absolute;width:142px;color:#EEE;left:1px;bottom:6px;font-size:12px;text-align:center;padding:7px 5px}
+.anime-serial-thumbnail img{width:151px;height:205px;border:1px solid #666}
+.anime-movie-title{position:relative}
+.anime-movie-title h1{font-size:14px;padding:5px 0;margin:0 0 5px;border-bottom:4px solid #DEDEDE;font-weight:700;color:#222}
+.anime-movie-title h1 span{border-bottom:4px solid #54CBFF;padding-bottom:5px}
+.anime-movie-more{padding:3px;bottom:10px;right:5px;font-size:10px;float:right;color:#EEE;background:#5A5A5A;text-align:center;width:70px}
+.anime-movie-konten{overflow:hidden;margin:0 -12px 2px 0}
+.anime-movie-thumbnail{float:left;text-align:justify;padding:1px;height:212px;margin:3px 5px 0 0;width:155px;position:relative;overflow:hidden}
+.anime-movie-thumbnail a{color:transparent}
+.anime-movie-thumbnail span{background:linear-gradient(to bottom,rgba(0,0,0,.05) 6%,rgba(0,0,0,.5) 70%);position:absolute;width:142px;color:#EEE;left:1px;bottom:6px;font-size:12px;text-align:center;padding:7px 5px}
+.anime-movie-thumbnail img{width:151px;height:205px;border:1px solid #666}
+.anime-ost-title{position:relative}
+.anime-ost-title h1{font-size:14px;padding:5px 0;margin:0 0 5px;border-bottom:4px solid #DEDEDE;font-weight:700;color:#222}
+.anime-ost-more,.sidebar h3{color:#EEE;background:#5A5A5A}
+.anime-ost-title h1 span{border-bottom:4px solid #54CBFF;padding-bottom:5px}
+.anime-ost-more{padding:3px;bottom:10px;right:5px;font-size:10px;float:right;text-align:center;width:70px}
+.sidebar{width:300px;float:right;margin:0 0 1px 10px}
+.sidebar h3{padding:4px 7px;margin:0;font-size:14px;font-weight:700;text-transform:none;border-left:4px solid #54CBFF}
+.sidebar ul{margin:0 0 5px;padding:0}
+.sidebar ul li{border-bottom:1px solid #DDD;line-height:13px;margin:0;padding:6px 3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sidebar ul li a{color:#222;font-size:13px}
+.sidebar ul li a:hover{text-decoration:none}
+#iklan-sidebar{height:250px;width:auto;background:url(images/Space-Side.png) no-repeat;border:1px solid #DDD;margin:0 0 5px}
+.textwidget{font-size:12px;padding-top:0;margin-bottom:1px}
+.tagcloud{line-height:30px;padding:2px 0}
+.tagcloud a{color:#EEE;background:#54CBFF;padding:6px;margin:2px 1px 2px 2px;text-overflow:ellipsis;font-weight:600;font-size:11px!important;overflow:hidden;white-space:nowrap;transition:.2s linear;border-radius:2px}
+.tagcloud a:hover{text-decoration:none!important;background:#5A5A5A;color:#EEE!important;transition:.2s linear}
+#kaki-menu ul li a:hover,.anime-info-informasi-konten-data a:hover,.anime-info-navigation a:hover{text-decoration:underline}
+#kaki{text-align:center;font-family:sans-serif;line-height:16px;width:990px;background-color:#5A5A5A;font-size:11px;color:#EEE;opacity:.97;margin:5px auto}
+#kaki p{font-size:14px;padding:10px}
+#kaki p a{color:#54CBFF}
+#kaki-menu{overflow:hidden;padding:10px 0;display:block;text-align:center;border-bottom:1px solid #EEE}
+#kaki-menu ul{overflow:hidden}
+#kaki-menu ul li{display:inline;padding:0 10px;font-size:13px}
+#kaki-menu ul li a{color:#EEE;padding:10px}
+#kaki-menu ul li a:hover{color:#EEE}
+#anime-info{width:100%;overflow:hidden}
+.anime-info-title{position:relative}
+.anime-info-title h1{font-size:14px;padding:5px 0;border-bottom:4px solid #DEDEDE;font-weight:700;color:#222;text-overflow:ellipsis;overflow:hidden}
+.anime-info-navigation{text-align:center;margin:4px 0;height:20px}
+.anime-info-navigation b{color:#222;margin:0 5px;font-weight:400;font-size:12px;float:left}
+.anime-info-navigation a{color:#CCC;margin:0 5px;font-size:12px;float:right}
+.anime-info-tabel-thumbnail{float:left;margin-right:10px}
+.anime-info-tabel-thumbnail img{padding:3px;border:1px solid #DDD;background:#FFF;width:185px;height:260px}
+.anime-info-tabel-statistik{background:#F5F5F5;border:1px solid #DFDFDF;border-radius:2px;overflow:hidden;display:block;padding:10px 15px}
+.anime-info-tabel-statistik-konten{float:left;text-align:center}
+.anime-info-tabel-statistik-konten.anime-info-tabel-statistik-konten-skor{border-right:1px solid #CCC;padding-right:20px}
+.anime-info-tabel-statistik-konten.anime-info-tabel-statistik-konten-detail{font-weight:700;font-size:13px;border-left:1px solid #FCFCFC;top:30px;position:relative;padding-right:20px}
+.anime-info-tabel-statistik-konten-type{padding:0 10px;border-right:1px solid #CCC;display:block;overflow:hidden;float:left;text-overflow:ellipsis;max-width:110px;white-space:nowrap}
+.anime-info-tabel-statistik-konten-skor strong{display:block;background:#54CBFF;color:#EEE;padding:2px 15px;border-radius:3px;font-weight:400;font-size:12px;text-transform:uppercase}
+.anime-info-tabel-statistik-konten-skor span{font-size:25px;font-weight:700;display:block}
+.anime-info-tabel-statistik-konten-skor i{color:#D4C310;font-size:12px}
+.anime-info-informasi-konten-data a,.anime-pos-konten .anime-pos-konten-detail h2 a{color:#222}
+.anime-info-deskripsi{margin:15px auto}
+.anime-info-deskripsi p{text-align:justify;background:#F5F5F5;padding:5px 10px;height:60px!important;display:block;font-size:14px;overflow:hidden;text-overflow:ellipsis;border:1px solid #EBEBEB;border-radius:1px;line-height:21px}
+.anime-info-informasi{margin:15px 0;display:block;clear:both}
+.anime-info-informasi-konten{position:relative;padding:5px}
+.anime-info-informasi-konten-title{font-weight:700;font-size:15px;border-bottom:1px solid #AAA;padding:5px;margin-bottom:5px}
+.anime-info-informasi-konten-data{font-size:13px;line-height:17px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:5px}
+.anime-info-informasi-konten-data:nth-child(2n+1){background:#FAFAFA}
+.anime-info-informasi-konten-data b{display:block;float:left;width:70px}
+.anime-info-sinopsis{text-align:justify;font-size:14px;margin:5px 0;line-height:21px;padding:5px}
+.anime-info-sinopsis-title{font-weight:700;font-size:15px;border-bottom:1px solid #AAA;padding:5px;margin-bottom:5px}
+.anime-info-sinopsis-konten p{color:#222;font-size:13px;padding:0 5px}
+.anime-cari-konten,.anime-pos-konten{padding-bottom:5px;border-bottom:1px solid #F1F1F1;overflow:hidden}
+.anime-pos-konten{margin-bottom:10px}
+.anime-pos-konten img{float:left;height:100px;max-width:145px}
+.anime-pos-konten .anime-pos-konten-detail{overflow:hidden;height:90px;margin-left:150px;padding:5px;position:relative;background:#FAFAFA}
+.anime-pos-konten .anime-pos-konten-detail h2{font-size:13px;margin-bottom:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.anime-pos-konten .anime-pos-konten-detail h2 a:hover{color:#54CBFF}
+.anime-pos-konten .anime-pos-konten-detail span{display:block;font-size:11px;line-height:17px;color:#777}
+.anime-pos-konten .anime-pos-konten-detail b{float:left;width:90px}
+.anime-pos-konten .anime-pos-konten-detail span a{color:#777}
+.anime-cari-konten{margin-bottom:10px}
+.anime-cari-konten img{float:left;height:auto;max-width:145px}
+.anime-cari-konten .anime-cari-konten-detail{overflow:hidden;height:197.19px;margin-left:150px;padding:5px 5px 0;position:relative;background:#FAFAFA}
+.anime-cari-konten .anime-cari-konten-detail h2{font-size:13px;margin-bottom:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.anime-cari-konten .anime-cari-konten-skor{float:left;position:absolute;top:5px;right:5px;font-weight:700;font-size:13px}
+.anime-cari-konten .anime-cari-konten-skor i{margin-right:5px;color:#54CBFF}
+.anime-cari-konten .anime-cari-konten-detail h2 a{color:#222;width:80%;display:block;overflow:hidden}
+.anime-cari-konten .anime-cari-konten-detail h2 a:hover{color:#54CBFF}
+.anime-cari-konten .anime-cari-konten-detail span{display:block;font-size:11px;line-height:17px;color:#777}
+.anime-cari-konten .anime-cari-konten-detail b{float:left;width:90px}
+.anime-cari-konten .anime-cari-konten-detail span a{color:#777}
+#postingan-anime{width:100%;padding-bottom:5px}
+.postingan-anime-title h1{font-size:14px;padding:5px 0;border-bottom:4px solid #DEDEDE;font-weight:700;color:#222;text-overflow:ellipsis;overflow:hidden}
+.postingan-anime-author p{float:left;color:#CCC;font-size:12px;margin-top:3px}
+.postingan-anime-thumbnail{text-align:center;width:99%}
+.postingan-anime-thumbnail img{max-width:100%;height:auto;text-align:center;border:1px solid #DFDFDF;margin:5px 0}
+.postingan-anime-download p{font-size:14px;margin-bottom:3px}
+h1.download-title{background:#F1F1F1;padding:3px;color:#222;font-size:15px;text-align:center;font-weight:600;margin:15px 0}
+.postingan-anime-download h1{font-size:15px;border-bottom:2px solid #DFDFDF;padding:3px;margin-bottom:8px}
+.postingan-anime-download p strong{font-size:13px;padding:2px 3px;width:37px;display:inline-block;background:#54CBFF;text-align:center;margin-left:1px;margin-right:2.5px;margin-bottom:5px;color:#EEE;border-radius:3px}
+.postingan-anime-download p a{margin:0 4px}
+.postingan-anime-download p a[href="#"],.postingan-anime-download p a[href="#"]:hover{color:#F44}
+.postingan-anime-download p a:hover{color:#54CBFF}
+#postingan-halaman{width:100%;padding-bottom:5px}
+.postingan-halaman-thumbnail{text-align:center;width:99%}
+.postingan-halaman-thumbnail img{max-width:100%;height:auto;text-align:center;border:1px solid #DFDFDF;margin:5px 0}
+.postingan-halaman-title h1{font-size:14px;padding:5px 0;border-bottom:4px solid #DEDEDE;font-weight:700;color:#222;text-overflow:ellipsis;overflow:hidden}
+.postingan-halaman-teks p{margin:2px 0;font-size:14px}
+.slicknav_menu{display:none}
+#genre-list{width:100%}
+ul.genre-list{width:100%;display:inline-block}
+.episode{width:100%;margin:0;padding:0;border-collapse:collapse;border-spacing:0}
+.episode th{background:#5A5A5A;color:#EEE;text-align:left}
+.episode th.download-kolom,.episode th.episode-kolom{text-align:center;line-height:25px}
+.episode td,.episode th{padding:3px 5px!important;font-size:13px;border:1px solid #EEE;font-weight:400}
+.episode a{color:#222;text-decoration:none;line-height:25px}
+.episode tr:nth-child(even){background:#F0F0F0;height:30px}
+.episode tr:nth-child(odd){background:#F7F7F7;height:25px}
+.episode td.download-kolom{text-align:center}
+.episode i,.episode td.download-kolom a{color:#54CBFF}
+.disqusmen{padding:10px;margin:10px 0;background:#f2f2f2;border-radius:3px}
+.comment a{color:#51504a;text-decoration:none}
+.commentlist li .avatar{float:left;background:#fff;margin-right:10px;width:42px;height:42px;border-radius:5px}
+.commentlist li ul li .avatar{width:32px;height:32px}
+.commentlist cite,.commentlist cite a{font-weight:700;font-style:normal;font-size:15px;color:#555;display:block;overflow:hidden;text-overflow:ellipsis;text-transform:capitalize}
+.commentmetadata{font-weight:400;font-size:11px;margin:7px 0}
+.commentlist li ul li .commentmetadata{margin:1px 0}
+h3.comments{padding:0;margin:40px auto 20px;color:#444}
+#respond,h3#comments{color:#555;padding:0;font-family:arial}
+h3#comments{margin:10px 0;width:100%;border-bottom:2px solid #ccc;padding-bottom:5px!important}
+h3#comments span{border-bottom:2px solid #666;padding-bottom:5px}
+#respond{margin:0}
+h3.respond{padding:0;margin:10px 0;color:#444}
+#respond h3{width:100%;padding:0;margin:10px 10px 10px 0;color:#444}
+.alt{margin:0;padding:10px}
+.commentlist{padding:0;text-align:justify;margin:0;font-family:arial}
+.commentlist li{background-position:right bottom;background-repeat:no-repeat;background-color:#FFF;margin:0 0 10px;padding:10px;border:1px solid #ddd}
+.commentlist li ul li{background-color:#FFF;margin-right:-5px;margin-left:10px;margin-top:10px;border:none;box-shadow:none}
+.comment-author{min-height:52px;border-bottom:1px solid #ddd}
+.commentlist li ul li .comment-author{border:none;min-height:40px}
+.commentlist p{font-weight:400;line-height:1.5em;text-transform:none;margin:10px 5px 10px 0}
+.children{padding:0}
+#commentform p{margin:5px 0 0}
+.nocomments{text-align:center;margin:0;padding:0}
+.nav-com,.reply{text-align:right}
+#commentform input{width:170px;padding:2px;margin:5px 5px 1px 0}
+#author,#email{height:25px;width:200px!important;font-size:14px;border:2px solid #CCC!important;border-radius:5px;padding:2px 5px!important}
+#cancel-comment-reply-link{font-size:11px;margin:0 10px}
+.comment-notes{display:none}
+#commentform{margin:5px 10px 25px 0}
+#commentform textarea{width:98%;height:60px;border-radius:5px;border:2px solid #CCC;font-size:14px;padding:5px;font-family:Open Sans}
+#respond:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+#commentform #submit{margin:0 0 5px auto;float:right;background:#606d75;border:1px solid #606d75;color:#fff;font-size:14px;cursor:pointer;border-radius:3px;width:130px;font-weight:700;font-family:Open Sans}
+.reply,.reply a{border-radius:3px}
+.reply{color:#333}
+.reply a{color:#555;background:#efefef;padding:3px 5px;font-size:12px;font-weight:700}
+.nav-com{margin:10px 0}
+.page-numbers{background:#e1e1e1;padding:4px 10px;color:#333;border-radius:2px}
+.page-numbers.current,.page-numbers:hover{background:#bc6549;color:#fff!important;text-decoration:none}
+.says{display:none}
+.navigation .alignleft{text-align:left}
+.navigation .alignright{text-align:right}
+.nav_apb,.nav_apb a{text-align:center;border:1px solid #DEDEDE}
+.nav_apb{padding:3px;margin:0;background:#EEE}
+.nav_apb a{padding:2px 0;width:17px;height:17px;margin:1px 0;background:#54CBFF;display:inline-block;font-size:14px;color:#EEE;line-height:17px}
+.nav_apb a:hover{text-decoration:underline}
+#a-z,#animelist{overflow:hidden}
+#animelist h2{font-size:15px;padding:3px 0;margin-bottom:5px;border-bottom:4px solid #54CBFF}
+.letter-group{height:auto;margin:0 0 10px;overflow:hidden}
+.letter-cell{font-weight:600;padding:0 5px;margin-bottom:5px;border-bottom:3px solid #54CBFF}
+.letter-cell a{color:#222;font-size:14px;margin-bottom:4px;display:block}
+.title-cell{line-height:18px;margin-right:7px;text-overflow:ellipsis;white-space:nowrap}
+.title-cell li{list-style:square;font-size:13px}
+.title-cell a{color:#222;font-size:13px;font-weight:700}
+.title-cell a:hover{text-decoration:none;color:#54CBFF}
+.wp-pagenavi{clear:both;margin-bottom:10px}
+.wp-pagenavi a,.wp-pagenavi span{text-decoration:none;color:#222;padding:3px 9px;margin:2px;border:1px solid #666;border-radius:3px;font-size:13px}
+.wp-pagenavi span{width:85px;margin-top:-3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.wp-pagenavi a:hover,.wp-pagenavi span.current{background:#54CBFF;border:1px solid #54CBFF;color:#EEE}
+.wp-pagenavi span.current{font-weight:700;background:#54CBFF}
+.recent-post{overflow:hidden;margin-bottom:15px;margin-top:10px}
+.recent-post h3{display:block;width:100%;font-weight:700;font-size:14px;padding:5px 0;color:#222;border-bottom:1px solid #DDD}
+.recent-post li{overflow:hidden;padding:5px;list-style:none;border-bottom:1px dashed #DDD}
+.recent-post li .recent-post-konten{font-size:11px;overflow:hidden;color:#222}
+.recent-post li .recent-post-konten img{float:left;margin-right:10px;max-width:145px;height:100px}
+.recent-post li .recent-post-konten h2{font-size:13px;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#222}
+.recent-post li .recent-post-konten h2 a{color:#222}
+.recent-post li .recent-post-konten h2 a:hover{color:#54CBFF}
+.recent-post li .recent-post-konten p{font-size:13px;line-height:19px}
+#genre-list li a{margin:5px;float:left;display:inline-block;background:#EFEFEF;width:100px;border:1px solid #DFDFDF;padding:10px 40px 10px 5px}
+@media screen and (max-width:480px) and (max-width:782px){#kepala{background-color:#54CBFF}
+	#genre-list li a{width:86%;padding-left:10px}
+	#badan,#kaki,#menu-utama ul li,.badan-pos,.penengah,.sidebar{width:100%}
+	#genres{border-radius:0}
+	#menu-mobile,#menu-utama{display:block}
+	#menu-utama ul li a.current-menu-item{background:#666}
+	#genres,.rekomendasi{padding:5px}
+	#badan{border:none}
+	.sidebar{text-align:center}
+	.anime-info-tabel-thumbnail{float:none;text-align:center}
+	.anime-info-tabel-thumbnail img{width:99%;height:auto}
+}
+@media screen and (max-width:360px) and (max-width:435px){
+	.kotak-pencarian,.postingan-anime-download p,.sidebar{text-align:center}
+	.postingan-anime-download p strong{display:block;float:left;width:100%}
+	.anime-info-tabel-thumbnail{float:none;text-align:center}
+	#genre-list li a{width:86%;padding-left:10px}
+	#badan,#kaki,#menu-utama ul li,.badan-pos,.penengah,.sidebar{width:100%}
+	#kepala{background-color:#54CBFF}
+	#genres{border-radius:0}
+	.kotak-pencarian{width:100%;background:#5A5A5A}
+	#menu-utama{display:block}
+	#menu-utama ul li a.current-menu-item{background:#666}
+	#genres,.rekomendasi{padding:5px}
+	#badan{border:none}
+	.sidebar .tagcloud{text-align:left}
+	.anime-info-tabel-thumbnail img{width:99%;height:auto}
+}
+@media screen and (max-width:40em){#menu-utama ul li a,.kotak-pencarian{width:100%;background:#5A5A5A;text-align:center}
+	#menu-utama ul li a{padding:0;border-bottom:1px solid #666}
+	#genres{border-top:1px solid #666}
+	#genres ul li a{display:inline-block;line-height:10px}
+	#iklan-sidebar,#kaki-menu,#menu-layang,ul.menu li:not(:first-child){display:none}
+	.iklan-kanan,.iklan-kiri{float:left;margin:1px 0;width:99.5%;background-size:100% 60px}
+	#menu-utama ul{width:100%;float:none}
+	#menu-utama ul li.icon{display:inline-block;right:0;text-align:center;top:0}
+	#menu-utama ul li.icon a{text-align:center}
+	#menu-utama .menu li{float:none}
+	ul.menu.responsive{position:relative}
+	ul.menu.responsive li.icon{position:absolute;right:0;top:0;margin:0}
+	ul.menu.responsive li{float:none!important;display:inline}
+	ul.menu.responsive li a{display:block;text-align:left}
+}

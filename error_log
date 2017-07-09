@@ -1,0 +1,4 @@
+[11-Apr-2017 01:48:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/awnimest/public_html/wp-content/themes/RemIcy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/awnimest/public_html/wp-content/themes/RemIcy/index.php on line 1

@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500");
+body{
+	background: #DDDDDD;
+	font-family: "Fira Sans", sans-serif;
+}
+a{
+	color: #54CBFF;
+	text-decoration: none;
+}
+#box-download{
+	width: 500px;
+	background: #FAFAFA;
+	padding: 10px;
+	display: block;
+	margin: 0px auto;
+	border: 1px solid #CECECE;
+	box-shadow: 1px 1px 1px #333333;
+	text-align: center;
+}
+#box-download p{
+	margin-top: 5px;
+}
+#box-download p a{
+	font-size: 12px;
+	color: #54CBFF;
+}
+#box-download h1{
+	font-size: 25px;
+	color: #222222;
+	padding: 5px;
+	border-bottom: 3px solid #DDDDDD;
+}
+#box-download #button{
+	width: 150px;
+	height: 40px;
+	cursor: pointer;
+	border: none;
+	border-radius: 3px;
+	color: #EEEEEE;
+	background: #5A5A5A;
+	display: inline-block;
+	font-size: 18px;
+}
+#box-download #button:hover{
+	background: #666666;
+}
+#box-tutorial{
+	background: #EFEFEF;
+	width: 90%;
+	height: auto;
+	margin: 18px auto;
+	border: 1px solid #DDDDDD;
+	padding: 5px;
+}
+#box-tutorial h1{
+	margin: 3px;
+	font-size: 18px;
+	font-weight: 400;
+	border-bottom: 2px solid #DDDDDD;
+}
+#box-download h2{
+	font-size: 12px;
+	color: #222222;
+	padding: 5px;
+	font-weight: 300;
+	border-top: 3px solid #DDDDDD;
+}
+#box-tutorial h1 i{
+	font-weight: 400;
+}	
+.box-tutorial{
+	text-align: left;
+}
+.box-tutorial p{
+	margin: 5px;
+	font-size: 14px;
+	text-align: justify;
+}
+.box-tutorial li{
+	margin: 5px;
+	font-size: 14px;
+	list-style: square;
+}
+#generate-now{
+	margin: 10px;
+}
+#generate-now button{
+	background: blue;
+	color: #FFFFFF;
+	font-size: 14px;
+	padding: 7px;
+	border: none;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+#box-generate{
+	padding: 10px 2px;
+	border: 1px solid #DDDDDD;
+}
+#input-url{
+	padding: 8px;
+	width: 70%;
+	margin-left: 5px;
+	background: #EFEFEF;
+	border: 1px solid #DDDDDD;
+	color: #AAAAAA;
+}
+input[type="button"]{
+	padding: 8px;
+	color: #AAAAAA;
+	background: #EFEFEF;
+	border: 1px solid #DDDDDD;
+}
